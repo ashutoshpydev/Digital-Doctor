@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The title of the document</title>
+    <style>
+     *{
+    font-family: "Times New Roman", Times, serif;
+    }
+        .container {
+            display: flex;
+            align-items: top;
+            justify-content: center;
+            background: url("output-onlinepngtools.png");
+            background-size: cover;
+             width:1366px;
+            height:768px;
+            margin: 0%;
+        }
+
+        img {
+            max-width: 100%;
+            height: 350px;
+            width: 700px;
+            border: 2px dashed rgb(14, 13, 13);
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .image {
+            flex-basis: 50%;
+        }
+
+        .text {
+            font-size: 20px;
+            padding-left: 20px;
+            font-weight: 500px;
+        }
+
+        li {
+            color: rgb(24, 3, 3);
+        }
+
+        h1 {
+            background-color: rgba(105, 146, 160, 0.753);
+        }
+
+        .medicine {
+            font-size: larger;
+        }
+
+        body {
+            border: 3px solid rgb(34, 135, 148);
+            background-color: rgb(199, 197, 194);
+            border-radius: 8px;
+            margin: 0%;
+        }
+
+        .previous {
+            background-color: #ee2a2a;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+            margin-left: 500px;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .back_menu{
+                list-style-type: none;
+                list-style-position: outside;
+        }
+        .last_li{
+            display: inline;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="headache.jpeg">
+        </div>
+        <div class="text">
+            <h1>HEAD ACHE </h1>
+            <h2>Symptoms</h2>
+            <ul>
+
+                <li>Slow onset of the headache.</li>
+                <li>Head usually hurts on both sides.</li>
+                <li>Pain is dull or feels like a band or vice around the head.</li>
+                <li> Pain may involve the back part of the head or neck.</li>
+                <li>Pain is mild to moderate, but not severe.</li>
+
+
+            </ul>
+            <h1>Precautions</h1>
+            <ol>
+                <li>Be consistent. Eat at about the same time every day.</li>
+                <li> Don't skip meals. Fasting increases the risk of migraines.</li>
+                <li> Keep a food journal.</li>
+                <li> Keeping track of the foods you eat and when you have migraines can help you find potential food
+                    triggers.</li>
+                <li> Avoid foods that trigger headache.</li>
+
+            </ol>
+            <h1>Medicines</h1>
+            <ul class="medicine">
+                <li>Aspirin</li>
+                <li>Advil</li>
+                <li>Motrin-IB</li>
+                <li>Aleve</li>
+
+
+
+            </ul>
+            <h3>Note: Take only one dose from the above option</h3>
+            <ul class="back_menu">
+                <li class="last_li"><a onclick="history.back()" class="previous">&laquo; Previous</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

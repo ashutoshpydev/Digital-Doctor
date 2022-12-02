@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The title of the document</title>
+    <style>
+     *{
+    font-family: "Times New Roman", Times, serif;
+    }
+        .container {
+            display: flex;
+            align-items: top;
+            justify-content: center;
+            background: url("output-onlinepngtools.png");
+            background-size: cover;
+            margin: 0%;
+             width:1366px;
+            height:768px;
+        }
+
+        img {
+            max-width: 100%;
+            height: 350px;
+            width: 600px;
+            border: 2px dashed rgb(14, 13, 13);
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .image {
+            flex-basis: 50%;
+        }
+
+        .text {
+            width: 100%;
+            font-size: 20px;
+            padding-left: 20px;
+            font-weight: 500px;
+        }
+
+        li {
+            color: rgb(24, 3, 3);
+        }
+
+        h1 {
+            background-color: rgba(105, 146, 160, 0.753);
+        }
+
+        .medicine {
+            font-size: larger;
+        }
+
+        body {
+            border: 3px solid rgb(34, 135, 148);
+            background-color: rgb(199, 197, 194);
+            border-radius: 8px;
+            margin: 0%;
+        }
+
+        .previous {
+            background-color: #ee2a2a;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+            margin-left: 500px;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .back_menu{
+                list-style-type: none;
+                list-style-position: outside;
+        }
+        .last_li{
+            display: inline;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="STOMACH ACHE.jpg">
+        </div>
+        <div class="text">
+            <h1>Stomach ache </h1>
+            <h2>Symptoms</h2>
+            <ul>
+                    
+                    
+                <li>Feeling bloated, farting a lot                  	{trapped wind}
+                    
+                    </li>
+                <li>Cannot poo						{constipation}
+                    
+                    
+                    </li>
+                <li>Watery poo, feeling sick, vomiting		{diarrhoea or food poisoning}
+            
+                    </li>
+            
+        
+            </ul>
+            <h1>Precautions</h1>
+            <ol>
+                
+                <li> Don't overeat.</li>
+                <li>Eat fiber-rich foods, such as fruits and vegetables,
+                    so your bowel movements are regular.</li>
+                <li>   Drink lots of fluids, especially water. </li>
+                <li>   Wash your hands before eating.</li>
+              
+              
+               
+            </ol>
+            <h1>Medicines</h1>
+            <ul class="medicine">
+                <li> Pepcid AC [1 tablet per day]</li>
+            <li> Digestomen Syrup 200 ml [2 times a day]</li>
+            <li>ENO [FOR ADULTS]</li>
+
+
+
+            </ul>
+            
+            <ul class="back_menu">
+                <li class="last_li"><a onclick="history.back()" class="previous">&laquo; Previous</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

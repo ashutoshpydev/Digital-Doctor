@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The title of the document</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+        .container {
+            display: flex;
+            align-items: top;
+            justify-content: center;
+            background: url("output-onlinepngtools.png");
+            background-size: cover;
+            width:1366px;
+            height:768px;
+            margin: 0%;
+        }
+
+        img {
+            max-width: 100%;
+            height: 370px;
+            width: 500px;
+            border: 2px dashed rgb(14, 13, 13);
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .image {
+            flex-basis: 65%;
+        }
+
+        .text {
+            width: 100%;
+            font-size: 20px;
+            padding-left: 20px;
+            font-weight: 500px;
+        }
+
+        li {
+            color: rgb(24, 3, 3);
+        }
+
+        h1,h2 {
+            background-color: rgba(105, 146, 160, 0.753);
+        }
+
+        .medicine {
+            font-size: larger;
+        }
+
+        body {
+            border: 3px solid rgb(34, 135, 148);
+            background-color: rgb(199, 197, 194);
+            border-radius: 8px;
+            margin: 0%;
+        }
+
+        .previous {
+            background-color: #ee2a2a;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+            margin-left: 500px;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .back_menu {
+            list-style-type: none;
+            list-style-position: outside;
+        }
+
+        .last_li {
+            display: inline;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="back ache.jpg">
+        </div>
+        <div class="text">
+            <h1>Back ache </h1><br>
+            <h2>Symptoms</h2><br>
+            <ul>
+
+                <li>Increasing pain with lifting and bending..</li>
+                <li>Worsening pain when resting, sitting, or standing.</li>
+                <li> Stiffness in the morning when awakening and lessened back pain with activity.</li>
+                <li>Pain that radiates away from the back into the buttocks, leg, or hip.</li>
+                Swelling
+Stiff or enlarged joint
+Numbness
+Noisy joints, or clicking, grinding, or snapping sounds when moving the joint
+Painful movement
+Difficulty bending or straightening the joint
+Loss of motion
+A red and hot and swollen joint (This should be evaluated quickly by a doctor)
+
+
+            </ul><br>
+            <h1>Precautions</h1><br>
+            <ol>
+                <li>Do muscle-strengthening and stretching exercises at least 2 days</li>
+                <li> Stand and sit up straight.</li>
+                <li> Stand and sit up straight. </li>
+                <li>Eat slowly and eat smaller, more frequent meals. </li>
+                <li> If you do lift something heavy, bend your knees and keep your back straight.</li>
+
+            </ol><br>
+            <h1>Medicines</h1><br>
+            <ul class="medicine">
+                <li>Acetaminophen (Tylenol){dosage:1 tablet per Day}</li>
+                <li>MOOV-SPRAY</li>
+
+
+
+            </ul>
+
+            <ul class="back_menu">
+                <li class="last_li"><a onclick="history.back()" class="previous">&laquo; Previous</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

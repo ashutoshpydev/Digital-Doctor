@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The title of the document</title>
+    <style>
+     *{
+    font-family: "Times New Roman", Times, serif;
+    }
+        .container {
+            display: flex;
+            align-items: top;
+            justify-content: center;
+            background: url("output-onlinepngtools.png");
+            background-size: cover;
+             width:1366px;
+            height:768px;
+            margin: 0%;
+        }
+
+        img {
+            max-width: 100%;
+            height: 350px;
+            width: 600px;
+            border: 2px dashed rgb(14, 13, 13);
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .image {
+            flex-basis: 50%;
+        }
+
+        .text {
+            width:100%;
+            font-size: 20px;
+            padding-left: 20px;
+            font-weight: 500px;
+        }
+
+        li {
+            color: rgb(24, 3, 3);
+        }
+
+        h1 {
+            background-color: rgba(105, 146, 160, 0.753);
+        }
+
+        .medicine {
+            font-size: larger;
+        }
+
+        body {
+            border: 3px solid rgb(34, 135, 148);
+            background-color: rgb(199, 197, 194);
+            border-radius: 8px;
+            margin: 0%;
+        }
+
+        .previous {
+            background-color: #ee2a2a;
+            color: black;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+            margin-left: 500px;
+        }
+
+        .next {
+            background-color: #04AA6D;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+        .back_menu{
+                list-style-type: none;
+                list-style-position: outside;
+        }
+        .last_li{
+            display: inline;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="ALLERY.png">
+        </div>
+        <div class="text">
+            <h1>Allergy</h1>
+            <h2>Symptoms</h2>
+            <ul>
+    
+                <li>Eye irritation.</li>
+                <li>Runny nose.</li>
+                <li>Stuffy nose.</li>
+                <li>Puffy, watery eyes.</li> 
+                <li>Inflamed, itchy nose and throat</li>
+             </ul>
+           
+             <h1>Precautions</h1>
+            <ol>
+                <li>  Keep windows in your living spaces closed to lower exosure to pollen.</li>
+                <li>Wear a medical alert bracelet or other means to communicate to others about your allergy in case of a 
+                    reaction.</li>
+                <li>Eat slowly and eat smaller, more frequent meals. </li>
+                <li> Avoid activity after eating.</li>
+                <li> Review product labels carefully before buying or consuming any item
+                    Know what you are eating or drinking.</li>
+            
+            </ol>
+            <h1>Medicines</h1>
+            <ul class="medicine">
+                <li>Antihistamines</li>
+                <li>corticosteroid</li>
+                <li>Decongestants</li>
+
+
+
+            </ul>
+            <h3>Note: Take only one dose from the above Medicine</h3>
+            <ul class="back_menu">
+                <li class="last_li"><a onclick="history.back()" class="previous">&laquo; Previous</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

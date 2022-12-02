@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <title>The title of the document</title>
+    <style>
+     *{
+    font-family: "Times New Roman", Times, serif;
+    }
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background: url("robotdoctorg.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+nav{
+    background: rgba(24, 144, 192, 0.822);
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: 0 25px 20px -20px rgba(6, 160, 187, 0.822);
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 18px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 0.5s;
+}
+nav ul li::after{
+    content: '';
+    background-color: #f44566;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    opacity: 0;
+    transition: top 0.5s, opacity 0.5s;
+}
+nav ul li:hover{
+    color: #fff;
+}
+nav ul li:hover::after{
+    top: 50%;
+    opacity: 1;
+}
+  .container1{
+    display: flex;
+    align-items:baseline;
+    justify-content:end;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+h2{
+    color:rgb(8, 8, 8);
+    text-align-last: center;
+}
+a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
